@@ -12,7 +12,7 @@ pub struct Remember<'a> {
     pub args: ArgMatches,
     opts: &'a RememberOptions
 }
-https://github.com/jpcrs/remember.git
+
 impl Remember<'_> {
     pub fn new(arg: ArgMatches, opts: &RememberOptions) -> Remember {
         Remember {
